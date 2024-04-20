@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build-test-lint",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build-test-lint",
+			"detail": "npm run build && npm run test && npm run lint"
+		}
+	]
+}
