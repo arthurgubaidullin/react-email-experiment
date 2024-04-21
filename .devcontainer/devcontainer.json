@@ -14,7 +14,7 @@
   "forwardPorts": [],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  // "postCreateCommand": "yarn install",
+  "postCreateCommand": "echo 'alias nx=\"pnpm exec nx\"' >> ~/.bashrc",
 
   // Configure tool-specific properties.
   "customizations": {
