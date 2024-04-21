@@ -11,6 +11,9 @@ dependencies:
   react-email:
     specifier: 2.1.1
     version: 2.1.1(@babel/core@7.24.4)(@swc/helpers@0.5.2)(eslint@8.57.0)
+  tslib:
+    specifier: ^2.6.2
+    version: 2.6.2
 
 devDependencies:
   '@nx/eslint':
