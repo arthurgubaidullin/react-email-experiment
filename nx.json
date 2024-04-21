@@ -23,5 +23,8 @@
         "targetName": "lint"
       }
     }
-  ]
+  ],
+  "cli": {
+    "packageManager": "pnpm"
+  }
 }
